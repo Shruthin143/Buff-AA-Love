@@ -41,7 +41,7 @@ const SignIn = () => {
         },
       }
     )
-    const data = await response.json()
+//     const data = await response.json()
   }
   return (
     <>
