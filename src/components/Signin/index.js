@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useHistory } from 'react-router-dom'
 import {
   Container,
   FormWrap,
@@ -12,6 +13,7 @@ import {
 } from './SigninElements'
 
 const SignIn = () => {
+  const history = useHistory()
   const nameRef = useRef('')
   const emailRef = useRef('')
   const numberRef = useRef('')
@@ -41,7 +43,10 @@ const SignIn = () => {
         },
       }
     )
-//     const data = await response.json()
+    // const data = await response.json()
+
+    alert('Thank you for filling the details')
+    history.push('/')
   }
   return (
     <>
