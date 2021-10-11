@@ -3,13 +3,19 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine: 'Students of IIT Jodhpur',
+  headline: 'Driven by PASSION',
   description:
-    'Get access to our exclusive app that allows you to send unlimited services without getting charged',
-  buttonLabel: 'Get Started',
+    "Owning a buffalo doesn't have to be a burden when you wish to have a freehand. Buff-A-Love gives you a platform to fulfill your desire to own a buffalo. Hassle-free ownership process coupled with a reasonable premium gives you the freedom to choose your own buff.",
+
+  // <ul>
+  //   <li>Jerald Motto</li>
+  //   <li>Subhadip De</li>
+  //   <li>Shruthin Pasunoori</li>
+  // </ul>
+  buttonLabel: 'Home',
   imgStart: false,
-  img: require('../../images/svg-1.svg').default,
+  img: require('../../images/aboutUs2.png').default,
   alt: 'Car',
   dark: 'true',
   primary: true,
@@ -21,13 +27,13 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Unlimited Access',
-  headline: 'Unlimited Transactions with zero fees',
+  // topLine: 'Unlimited Access',
+  headline: 'Get Onboard with three simple steps',
   description:
-    'Get access to our exclusive app that allows you to send unlimited services without getting charged',
-  buttonLabel: 'Learn More',
+    'You can become a proud owner cum partner with us in just three simple steps.',
+  buttonLabel: 'Home',
   imgStart: true,
-  img: require('../../images/svg-2.svg').default,
+  img: require('../../images/HowItWorks.png').default,
   alt: 'PiggyBank',
   dark: 'false',
   primary: false,
@@ -45,7 +51,7 @@ export const homeObjThree = {
     'Get access to our exclusive app that allows you to send unlimited services without getting charged',
   buttonLabel: 'Start Now',
   imgStart: false,
-  img: require('../../images/svg-3.svg').default,
+  img: require('../../images/car1.jfif').default,
   alt: 'Paper',
   dark: 'false',
   primary: false,
