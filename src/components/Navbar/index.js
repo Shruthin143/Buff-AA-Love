@@ -68,12 +68,12 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass='active'
                 >
-                  Discover
+                  How it works
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                  to='services2'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to='signup'
                   smooth={true}
@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
                 >
                   Sign Up
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
             <NavBtn>
               <NavBtnLink to='/sign in'>
