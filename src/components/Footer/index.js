@@ -28,37 +28,45 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
+              {/* <FooterLink to='/signin'>How it works</FooterLink>
               <FooterLink to='/signin'>Testimonials</FooterLink>
               <FooterLink to='/signin'>Careers</FooterLink>
               <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/signin'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
+              <FooterLinkTitle>How it Works</FooterLinkTitle>
+              {/* <FooterLink to='/signin'>How it works</FooterLink>
               <FooterLink to='/signin'>Testimonials</FooterLink>
               <FooterLink to='/signin'>Careers</FooterLink>
               <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/signin'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
+              <FooterLinkTitle>Careers</FooterLinkTitle>
+              {/* <FooterLink to='/signin'>How it works</FooterLink>
               <FooterLink to='/signin'>Testimonials</FooterLink>
               <FooterLink to='/signin'>Careers</FooterLink>
               <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/signin'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
+              <FooterLinkTitle>Be a Partner</FooterLinkTitle>
+              {/* <FooterLink to='/signin'>How it works</FooterLink>
               <FooterLink to='/signin'>Testimonials</FooterLink>
               <FooterLink to='/signin'>Careers</FooterLink>
               <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/signin'>Terms of Service</FooterLink> */}
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Contact Us</FooterLinkTitle>
+              <FooterLink>Ph No: 7829000399</FooterLink>
+              <FooterLink>Email: shruthin.pasunoori@gmail.com</FooterLink>
+              {/* <FooterLink to='/signin'>Careers</FooterLink>
+              <FooterLink to='/signin'>Investors</FooterLink>
+              <FooterLink to='/signin'>Terms of Service</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -71,18 +79,26 @@ const Footer = () => {
               Buff-A-Love @ {new Date().getFullYear()} All Rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink
+                href='https://www.facebook.com/profile.php?id=100073444400137'
+                target='_blank'
+                aria-label='Facebook'
+              >
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink
+                href='https://www.instagram.com/e.buffalob/'
+                target='_blank'
+                aria-label='Instagram'
+              >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+              {/* <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
                 <FaLinkedin />
-              </SocialIconLink>
+              </SocialIconLink> */}
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
