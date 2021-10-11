@@ -1,7 +1,8 @@
 import React from 'react'
-import Icon1 from '../../images/svg-4.svg'
-import Icon2 from '../../images/svg-5.svg'
-import Icon3 from '../../images/svg-6.svg'
+import { FaCamera } from 'react-icons/fa'
+import Icon1 from '../../images/camera.png'
+import Icon2 from '../../images/products.png'
+import Icon3 from '../../images/health.jpg'
 import {
   ServicesContainer,
   ServicesH1,
@@ -12,31 +13,35 @@ import {
   ServicesP,
 } from './ServicesElements'
 
-const Services = () => {
+const Services2 = () => {
   return (
     <>
-      <ServicesContainer id='services'>
-        <ServicesH1>Our Services</ServicesH1>
+      <ServicesContainer id='services2'>
+        <ServicesH1>Services</ServicesH1>
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Reduce expenses</ServicesH2>
+            <ServicesH2>Monitoring</ServicesH2>
             <ServicesP>
-              We help reduce your fees and increase your overall productivity
+              You can login to our platform and see the status of your cattle at
+              any time. You can ask for any clarifications and we will update
+              you asap.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Virtual Offices</ServicesH2>
+            <ServicesH2>Products</ServicesH2>
             <ServicesP>
-              We help reduce your fees and increase your overall productivity
+              You will have the high quality certified milk products delivered
+              at your doorstep as per the agreement.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
-            <ServicesH2>Premium Benefits</ServicesH2>
+            <ServicesH2>Vigilance</ServicesH2>
             <ServicesP>
-              We help reduce your fees and increase your overall productivity
+              You will be updated with the feed inputs and the health reports at
+              the tap of the button on your device.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>
@@ -45,4 +50,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services2
