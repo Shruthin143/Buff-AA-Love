@@ -25,13 +25,13 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>
-          Shubo miya, lets decide the content. Let us meet for 1hr this weekend.
-        </HeroH1>
-        <HeroP>Jerald miya we will need to design few pics.</HeroP>
+        <HeroH1>When consumption knows its genesis</HeroH1>
+        <HeroP>
+          <em>A magical experience of purity for a simpler life</em>
+        </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+            to='about'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary='true'
