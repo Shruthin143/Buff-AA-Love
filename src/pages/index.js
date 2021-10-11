@@ -8,7 +8,8 @@ import {
 } from '../components/InfoSection/Data'
 import InfoSection from '../components/InfoSection/Index'
 import Navbar from '../components/Navbar'
-import Services from '../components/Services'
+import Services1 from '../components/Services'
+import Services2 from '../components/ServicesTwo'
 import Sidebar from '../components/sidebar'
 
 const Home = () => {
@@ -23,9 +24,10 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      {/* <Services1 /> */}
       <InfoSection {...homeObjTwo} />
-      <Services />
-      <InfoSection {...homeObjThree} />
+      <Services2 />
+      {/* <InfoSection {...homeObjThree} /> */}
       <Footer />
     </>
   )
