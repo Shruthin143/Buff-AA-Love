@@ -82,7 +82,7 @@ export const BtnWrap = styled.div`
   justify-content: flex-start;
 `
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  width: 650px;
   height: 100%;
 `
 export const Img = styled.img`
